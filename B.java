@@ -34,7 +34,7 @@ void bal()
 System.out.println("Total balance in your account is ="+bal);
 }
 }
-class B
+public class B
 {
 public static void main(String [] args)
 {
