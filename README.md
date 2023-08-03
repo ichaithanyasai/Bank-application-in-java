@@ -1,7 +1,7 @@
 # Bank-application-in-java
 ## In this program, we will add some basic functionalities of a bank account like a deposit of amount, withdrawal of amount, etc.
-
-The series of menus displayed are as follows:
+## Before performing any action this program asks the user the enter the pin . The pin is **1430**
+This Program provides you with the series of menu they are displayed as follows:
 
 
 1)Withdraw the money.
