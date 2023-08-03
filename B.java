@@ -5,15 +5,16 @@ Scanner sc=new Scanner(System.in);
 float bal;
 void withdraw()
 {
-System.out.println("Enter the amount to withdraw");
+System.out.println("Enter the amount to withdraw\n");
 float withdraw=sc.nextFloat();
 if(bal<withdraw)
 {
-System.out.println("Insufficient Balance");
+System.out.println("Insufficient Balance\n");
 }
 else
 {
 bal-=withdraw;
+System.out.println("Please collect your money and card\n");
 }
 }
 void deposit()
@@ -22,11 +23,12 @@ System.out.println("Enter the amount to deposit");
 float deposit=sc.nextFloat();
 if(deposit<0)
 {
-System.out.println("Invalid amount to withdraw");
+System.out.println("Invalid amount to withdraw\n");
 }
 else
 {
 bal+=deposit;
+System.out.println("Amount deposited sucessfully\n");
 }
 }
 void bal()
@@ -48,7 +50,7 @@ if(pin==pins)
 {
 while(status)
 {
-System.out.println("Enter your choice \n 1.withdraw \n2.Deposit \n3.Balance Enquiry\n4.Exit");
+System.out.println("Enter your choice \n1.Withdraw \n2.Deposit \n3.Balance Enquiry\n4.Exit");
 int choice =sc.nextInt();
 switch(choice)
 {
